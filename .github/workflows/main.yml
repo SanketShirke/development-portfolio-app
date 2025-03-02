@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    run-on: ubuntu
+    runs-on: ubuntu
     steps:
     - name: checkout 
       uses: actions/checkout@v4
